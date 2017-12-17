@@ -1,4 +1,4 @@
-package abstract_classes.cities;
+package abstract_classes;
 
 public class LosAngeles extends City {
 
@@ -9,7 +9,7 @@ public class LosAngeles extends City {
 
 	@Override
 	double getAnnualTaxes() {
-		double l =this.getPopulation()*this.getGrowthRate()+this.getGrowthRate()*.5;
+		double l =this.getPopulation()*this.getGrowthRate()*.5;
 		// TODO Auto-generated method stub
 		return l;
 	}

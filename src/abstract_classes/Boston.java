@@ -1,4 +1,4 @@
-package abstract_classes.cities;
+package abstract_classes;
 
 public class Boston extends City {
 
