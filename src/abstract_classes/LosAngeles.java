@@ -9,7 +9,7 @@ public class LosAngeles extends City {
 
 	@Override
 	double getAnnualTaxes() {
-		double l =this.getPopulation()*this.getGrowthRate()*.5;
+		double l =this.getGrowthRate()*.5*this.getPopulation()*this.getGrowthRate();
 		// TODO Auto-generated method stub
 		return l;
 	}

@@ -12,7 +12,7 @@ public class mixedCapsString extends SpecialString{
 		String newString = "";
 		s=s.toLowerCase();
 		for (int i = 0; i < s.length(); i++) {
-			if(i%2==0) {
+			if(i%2==1) {
 			newString+= s.substring(i, i+1).toUpperCase();
 			}
 			else {
